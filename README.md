@@ -28,8 +28,8 @@ The community NIC uses `dynamic reloads` with the [balancer_by_lua](https://gith
 
 ### NGINX NIC OpenSource
 
-- We do not use the Lua.
-- The question is what strategy we will take to address users' concerns about reloads.
+- We do not use Lua.
+- The question is what strategy we will take to address reloads.
 
 ### NGINX NIC Plus
 
