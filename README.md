@@ -35,3 +35,6 @@ The community NIC uses `dynamic reloads` with the [balancer_by_lua](https://gith
 
 - We leverage NGINX API calls for upstream updates without reloading.
 
+### Kong
+
+Code `endpoints` ref: [github](https://github.com/Kong/kubernetes-ingress-controller/blob/main/internal/adminapi/endpoints.go)
