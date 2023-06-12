@@ -1,10 +1,10 @@
 # EndpointSlices
 
-## Comaprison with Endpoints
+## Comparison with Endpoints
 
 - K8s EndpointSlices reduce size of transferred objects to/from K8s API
 - Lower CPU usage due to smaller objects
-- The number of update events (for watching clients) triggered by Pod updates (eg. scaling deployment, rolling update) stays the same!
+- The number of update events (for watching clients) triggered by Pod updates (eg. scalling deployment, rolling update) stays the same!
 
 ## K8s Docs
 
