@@ -1,6 +1,6 @@
 # EndpointSlices
 
-## Comaprisons with Endpoints
+## Comaprison with Endpoints
 
 - K8s EndpointSlices reduce size of transferred objects to/from K8s API
 - Lower CPU usage due to smaller objects
