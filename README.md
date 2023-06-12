@@ -8,20 +8,15 @@
 
 ## K8s Docs
 
-EndpointSlices [docs](https://kubernetes.io/docs/concepts/services-networking/endpoint-slices/#distribution-of-endpointslices):
+**EndpointSlices** [docs](https://kubernetes.io/docs/concepts/services-networking/endpoint-slices/#distribution-of-endpointslices):
 
-```bash
 With kube-proxy running on each Node and watching EndpointSlices, every change to an EndpointSlice becomes relatively expensive since it will be transmitted to every Node in the cluster.
-```
-```bash
+
 Rolling updates of Deployments also provide a natural repacking of EndpointSlices with all Pods and their corresponding endpoints getting replaced.
-```
 
-Duplicate endpoints [docs](https://kubernetes.io/docs/concepts/services-networking/endpoint-slices/#duplicate-endpoints):
+**Duplicate endpoints** [docs](https://kubernetes.io/docs/concepts/services-networking/endpoint-slices/#duplicate-endpoints):
 
-```bash
 Clients of the EndpointSlice API must iterate through all the existing EndpointSlices associated to a Service and build a complete list of unique network endpoints. It is important to mention that endpoints may be duplicated in different EndpointSlices.
-```
 
 ## Approaches to limit number of reloads
 
